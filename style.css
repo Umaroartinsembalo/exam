@@ -1,0 +1,1257 @@
+
+
+
+
+
+
+
+body
+{
+    margin: unset;
+    
+
+    padding-top: 80px;
+    
+    
+   
+
+
+
+
+    
+}
+
+
+
+
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #2192FF;
+    
+   
+    
+
+    
+}
+
+
+header
+{
+    
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+   
+}
+
+
+
+
+#header
+{
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #9CFF2E;
+    align-content: center;
+    
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+   
+ 
+  
+}
+
+
+
+.hide
+{
+    display: none;
+}
+
+
+
+
+.b
+{
+    background-color: #2192FF;
+    height: 20px;
+    border-radius: 10px;
+    margin: auto;
+    
+
+    
+    
+}
+
+
+.b:hover
+{
+    background-color: rgb(176, 176, 29);
+    content-visibility: blue;
+}
+
+.b>a
+{
+    color: white;
+    text-decoration: none;
+    
+   
+}
+
+
+.b>a:hover
+{
+    text-decoration: underline;
+    background-color: rgb(176, 176, 29);
+    
+    
+    color: blue;
+    
+}
+
+
+
+
+
+
+#maphoto
+{
+   
+   position: relative;
+   
+   
+   width: 400px;
+   height:  100vh;  
+  
+   background-color: white;
+
+    
+
+    
+
+
+    
+}
+
+
+
+.titre
+{
+    
+    height: 500px;  
+    margin: auto;
+   
+    margin-top: 0vh;
+    background-color: #477096;
+    position: fixed;
+    width: 20.9%;
+}
+
+
+.titre>img
+{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    
+    
+   
+}
+
+
+
+.descphoto
+{
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    width: 200px;
+    height: 50px;
+    align-items: top;
+  
+    background-color: white;
+}
+
+
+
+
+.desctitre
+{
+    position: absolute;
+    width: 280px;
+    height: 120px;
+   
+    top: 75%;
+    left: 5%;
+    transform: translate(-50% -50%);
+    background-color: #2192FF;
+    
+}
+
+
+.desctitre>p
+{
+    
+    font-size: large;
+    color: white;
+}
+
+
+.desc
+{
+    width: 270px;
+    height: min-content;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+    background-color: green;
+}
+
+
+.desc>p
+{
+    font-size: 12px;
+    color:white;
+   
+    
+    
+}
+
+
+
+
+
+.t
+{
+    width: 80px;
+    height: 200px;
+    
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+#total
+{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #2192FF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+    
+}
+
+.exp{
+    
+   
+
+    width: 100%;
+    height: 100px;
+   background-color: #2192FF;
+    color: yellow;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
+    
+}
+
+
+
+.dev
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: max-content;
+    color: #38E54D;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+
+
+
+.list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 16px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+#container2
+{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+    background-color : #2192FF;
+    
+    justify-content:left;
+   
+    
+   
+}
+
+
+
+#container3
+{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+    height: max-content;
+    background-color : #2192FF;
+    
+    
+   
+}
+
+
+
+#container4
+{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+    height: max-content;
+    background-color : #2192FF;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tec
+{
+   
+    
+    font-size: 14px;
+    color: yellow;
+}
+
+
+.photo
+{
+    width: 100px;
+    height: 60px;
+    
+}
+
+.photo>img
+{
+    width: 100px;
+    height: 60px ;
+}
+
+.nom
+{
+    width: max-content;
+    height: max-content;
+    margin: auto;     
+}
+
+
+
+.descsql
+{
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+    
+    
+}
+
+.n1
+{
+    height: 7px;
+
+    width: 70%;
+    background-color: red;
+}
+
+
+
+
+.descphp
+{
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+
+}
+
+
+.n2
+{
+    height: 7px;
+
+    width: 90%;
+    background-color: red;
+
+}
+
+
+.deschtml
+{
+    
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+
+}
+
+.n3
+{
+    height: 7px;
+
+    width: 95%;
+    background-color: red;
+
+}
+
+
+.desccss
+{
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+
+}
+
+
+.n4
+{
+    height: 7px;
+
+    width: 96%;
+    background-color: red;
+
+
+}
+
+.descjs
+{
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+
+}
+
+.n5
+{
+    height: 7px;
+
+    width: 80%;
+    background-color: red;
+
+}
+
+.descjava
+{
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+
+}
+
+.n6
+{
+    height: 7px;
+
+    width: 70%;
+    background-color: red;
+
+}
+
+.descc
+{
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+
+}
+
+.n7
+{
+    height: 7px;
+
+    width: 75%;
+    background-color: red;
+
+}
+
+
+.descfr
+{
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+
+}
+
+.n8
+{
+    height: 7px;
+
+    width: 80%;
+    background-color: red;
+
+}
+
+
+
+.n9
+{
+    
+    height: 7px;
+
+    width: 80%;
+    background-color: red;
+
+}
+
+
+
+
+.item
+{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #38E54D;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+
+.item:hover
+{
+    background-color: transparent;
+}
+
+
+.descl
+{
+    height: 7px;
+    width: 80%;
+    margin-top: 7%;
+    border: 1px solid  black;
+    margin-left: 10%;
+
+}
+
+.n9
+{
+    
+    height: 7px;
+
+    width: 80%;
+    background-color: red;
+
+}
+
+
+
+
+
+
+
+
+.item2
+{
+    width: 90px;
+    height: 90px;
+    background-color: cyan;
+}
+
+
+
+.esp
+{
+    width: 100%;
+    height: 5px;
+    margin-bottom: 0px;
+    background-color: #2192FF;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#botao
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: max-content;
+    height: max-content;
+    margin-right: 0px;
+    background-color: red;
+    color: yellow;
+    border-radius: 20px;
+    
+}
+
+#botao:hover
+{
+    background-color: yellow;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+pour tablete
+
+*/
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    body
+    {
+        width: 100%;
+        margin: unset;
+        background-color: #2192FF;
+    }
+    
+}
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+ 
+{
+    .exp
+    {
+        
+        position: absolute;
+        top: 90%;
+        left: 0%;
+
+       
+        
+    }
+
+
+    
+}
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    #total
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: unset;
+        background-color:transparent; 
+        
+    }
+    
+}
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    #maphoto
+    {
+        position: absolute;
+        top: 15%; 
+        right: 0%;
+        width: 100%;
+        height: 100%;
+      
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    .titre
+    {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        height: 100%;
+        width: 50%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    .descphoto
+    {
+        position: absolute;
+        top: 0%;
+        left:-100%;
+        width: 100%;
+        height: 90%;
+        
+    
+    }
+
+
+} 
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    .desctitre
+    {
+        position: absolute;
+        top: 45%;
+        left: -100%;
+        height: 15%;
+        width: 100%;
+        
+    }
+    
+}
+
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    #header
+    {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+}
+
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    head
+    {
+        position: relative;
+        z-index: 1;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1250px)
+{
+    .de
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pour telephone */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    body
+    {
+        
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        margin: unset;
+        padding: 0px;
+        
+        
+        background-color: #2192FF;
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    main
+    {
+        display: flex;
+        flex-direction: column;
+        margin: unset;
+       
+       
+        
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    header
+
+    {
+      position: relative;
+       right: 0;
+       top: 0;
+       display: flex;
+       flex-direction: column;
+       margin: unset;
+       height: 100vh; 
+        
+        
+
+        
+    
+    }
+
+
+} 
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    #header
+
+    {
+        position: relative;
+        top: 0;
+        z-index: 0;
+        
+        display: flex;
+        flex-direction: column;
+       
+       
+        height: 100vh;
+        
+        
+
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    .titre
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #477096;
+        
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    .descphoto
+    {
+        position: absolute;
+        top: 85%;  
+        right: 0%;
+        left: 0%;
+        width: 100%;
+        height: 23%;
+        margin-top: -10%;
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    .desctitre
+    {
+        position: absolute;
+        top: 50%; 
+        right: 0% ;
+        left: 0%;
+        width: 100%;
+        height: 30% ; 
+        margin-top: -5%;
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    #container
+    {
+       width: 100%;
+       
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    .exp
+    {
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    
+    }
+
+
+} 
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    .dev
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #2192FF;
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    #total
+    {
+        margin: unset;
+    
+        
+        
+    
+    }
+
+
+} 
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px)
+{
+    .hide
+    {
+        display: block;
+        z-index: 1;
+        
+        
+        
+    
+    }
+
+
+} 
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px) 
+
+
+{
+    
+#maphoto
+{
+   
+   position: relative;
+   
+   
+   width: 400px;
+   height:  100vh; 
+  
+   background-color: white;
+
+    
+
+    
+
+
+    
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
